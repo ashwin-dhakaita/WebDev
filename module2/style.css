@@ -1,0 +1,148 @@
+body{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	box-sizing: border-box;
+}
+
+h1{
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+
+}
+
+@media (min-width: 992px){
+	#boxA{
+		border: 3px solid black;
+		width:30%;
+		float: left;
+		margin:1.30%;
+		background-color:gray;
+	}
+
+	#boxB{
+		border: 3px solid black;
+		width:30%;
+		float: left;
+		margin:1.30%;
+		background-color:gray;
+	}
+
+	#boxC{
+		border: 3px solid black;
+		width:30%;
+		float: left;
+		margin:1.30%;
+		background-color:gray;
+	}
+
+	#box2{
+		border: 3px solid black;
+		border-top:0px;
+		padding-top: 0px;
+		position: relative;
+		margin-top: 0px;
+		width:33%;
+		left: 66.47%;
+	}
+	article{
+		padding-left: 3%;
+		padding-right: 3%;
+		padding-bottom: 3%;
+	}
+
+	.col1{background-color: red;}
+	.col2{background-color: green;}
+	.col3{background-color: yellow;}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	#boxA{
+		border: 3px solid black;
+		width:45%;
+		float: left;
+		margin:2%;
+		background-color:gray;
+	}
+
+    #boxB{
+		border: 3px solid black;
+		width:45%;
+		float: left;
+		margin:2%;
+		background-color:gray;
+	}
+
+	#boxC{
+		border: 3px solid black;
+		width:94.7%;
+		float: left;
+		margin:2%;
+		background-color:gray;
+	}
+
+	#box2{
+		border: 3px solid black;
+		border-top:0px;
+		padding-top: 0px;
+		position: relative;
+		margin-top: 0px;
+		width:33%;
+		left: 66.47%;
+	}
+	article{
+		padding-left: 3%;
+		padding-right: 3%;
+		padding-bottom: 3%;
+	}
+
+	.col1{background-color: red;}
+	.col2{background-color: green;}
+	.col3{background-color: yellow;}
+}
+
+@media (max-width: 767px){
+	#boxA{
+		border: 3px solid black;
+		width:94.7%;
+		float: left;
+		margin:2%;
+		background-color:gray;
+	}
+
+    #boxB{
+		border: 3px solid black;
+		width:94.7%;
+		float: left;
+		margin:2%;
+		background-color:gray;
+	}
+
+	#boxC{
+		border: 3px solid black;
+		width:94.7%;
+		float: left;
+		margin:2%;
+		background-color:gray;
+	}
+
+	#box2{
+		border: 3px solid black;
+		border-top:0px;
+		padding-top: 0px;
+		position: relative;
+		margin-top: 0px;
+		width:33%;
+		left: 66.47%;
+	}
+	article{
+		padding-left: 3%;
+		padding-right: 3%;
+		padding-bottom: 3%;
+	}
+
+	.col1{background-color: red;}
+	.col2{background-color: green;}
+	.col3{background-color: yellow;}
+}

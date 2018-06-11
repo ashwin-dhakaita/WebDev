@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Box Model</title>
+	<style type="text/css">
+		#box{
+			box-sizing: border-box;
+			background-color: gray;
+			border: solid black 10px;
+			margin:0px;
+			padding:30px;
+			width:50px;
+			height: 110px;
+			font-size: 25px;
+			font-weight: bold;
+			float:left;
+			margin-right:27.5px;
+		}
+		@media (min-width:992px) and (max-width:1199px){
+			#box{width:47%;}
+		}
+		@media (min-width:1200px){
+			#box{width:100%;}
+		}
+	</style>
+</head>
+<body style="">
+	<p id="box" style="background-color: red;" >This is a heading.</p>
+	<p id="box" style="background-color: blue;">This is a heading.</p>
+	<p id="box" style="background-color: purple;">This is a heading.</p>
+	<p id="box" style="background-color: green;">This is a heading.</p>
+</body>
+</html>
