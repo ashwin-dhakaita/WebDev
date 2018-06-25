@@ -12,6 +12,10 @@ h2{
 
 }
 
+.col1{background-color: #D59898;}
+.col2{background-color: #C14543;}
+.col3{background-color: #E5D198;}
+
 @media (min-width: 992px){
 	#boxA{
 		border: 3px solid black;
@@ -52,9 +56,6 @@ h2{
 		padding-bottom: 3%;
 	}
 
-	.col1{background-color: red;}
-	.col2{background-color: green;}
-	.col3{background-color: yellow;}
 }
 
 @media (min-width: 768px) and (max-width: 991px){
@@ -97,9 +98,6 @@ h2{
 		padding-bottom: 3%;
 	}
 
-	.col1{background-color: red;}
-	.col2{background-color: green;}
-	.col3{background-color: yellow;}
 }
 
 @media (max-width: 767px){
@@ -142,7 +140,4 @@ h2{
 		padding-bottom: 3%;
 	}
 
-	.col1{background-color: red;}
-	.col2{background-color: green;}
-	.col3{background-color: yellow;}
 }

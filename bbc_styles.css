@@ -1,0 +1,175 @@
+img#bbc_icon{
+	background-color: black;
+	border-style: solid;
+	border-color: black;
+	margin-left: 30px;
+}
+
+body{
+	margin: 0px;
+	box-sizing: border-box;
+	font-family:"Arial", Verdana, Lucida Console;
+}
+.big_box_H{
+	width:130px;
+	height: 37px;
+	background-color: black;
+	padding-top: 5px;
+	float: left;
+	border-right-color: white;
+	border-right-style: solid;
+	border-right-width: 1px;
+	color : white;
+
+}
+
+.big_box_H:hover{
+	height: 37px; 
+	border-bottom-style: solid;
+	border-bottom-width: 3px;   
+}
+
+.big_box_H#id1{
+	width: 130px;
+	padding-left: 10px;
+	padding-top: 11px;
+	height: 31px;
+}
+
+.SB{
+	text-align: center;
+	width: 100px;
+	height: 29px;
+	padding-top: 13px;
+}
+
+.SB:hover{
+	height: 26px;
+}
+.big_box_H#id1 > span{
+	padding-left: 10px;
+}
+
+.big_box_H#id1:hover{
+	height: 28px; 
+	border-bottom-style: solid;
+	border-bottom-width: 3px;  
+	border-bottom-color: #1188BB;  
+}
+
+.big_box_H#id2:hover{
+	border-bottom-color: #992211; 
+}
+
+.big_box_H#id3:hover{
+	border-bottom-color: #FFD230; 
+}
+
+.big_box_H#id4:hover{
+	border-bottom-color: #88CCEE; 
+}
+
+.big_box_H#id5:hover{
+	border-bottom-color: #2897E5; 
+}
+
+.big_box_H#id6:hover{
+	border-bottom-color: maroon; 
+}
+
+.big_box_H#id7:hover{
+	border-bottom-color: brown; 
+}
+
+.big_box_H#id8:hover{
+	border-bottom-color: red; 
+}
+
+.big_box_H#id9:hover{
+	border-bottom-color: #666666; 
+}
+
+.big_box_H#id10:hover{
+	border-bottom-color: pink; 
+}
+
+.big_box_H#id11{
+	width: 174px;
+	padding-left: 10px;
+	padding-top: 11px;
+	height: 31px;
+}
+
+.big_box_H#id11 > span{
+	padding-left: 10px;
+}
+
+.big_box_H#id11:hover{
+	height: 28px; 
+	border-bottom-style: solid;
+	border-bottom-width: 3px;  
+	border-bottom-color: #1188BB;  
+}
+
+.sec2{
+	padding-top: 82px;
+	padding-right: 31px;
+	padding-left: 31px;
+	height: 35px;
+	font-size: 20px;
+	color: #8A8A88;
+	background-color: #E7E8E1;
+}
+
+.sec2 span:nth-child(2){
+	margin-left: 950px;
+}
+
+.sec3{
+	background-color: #E7E8E1;
+	padding-right: 31px;
+	padding-left: 31px;
+}
+
+.pText{
+	z-index: 1;
+	background-color: transparent;
+	position: absolute;
+	margin-left: -600px;
+	margin-top: 200px;
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+	opacity: 1;
+}
+#p1{
+	font-size: 16.5px;
+	margin-top: 250px;
+	color: #CECDCC;
+}
+
+#p2{
+	margin-top: 300px;
+	width: 3px;
+	height: 16.5px;
+	background-color: red;
+}
+
+#p3{
+	margin-top: 300px;
+	margin-left: -595px;
+	width: 3px;
+	font-size: 16.5px;
+	color: white;
+}
+
+.simg{
+	position: absolute;
+	margin-left: 10px;
+}
+#p4{
+	font-size: 20px;
+	margin-left: 20px;
+	margin-top: 90px;
+	color: #CECDCC;
+}
